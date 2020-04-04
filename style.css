@@ -318,7 +318,8 @@ nav .nav a:hover {
   .testimonials .testimonial-card img {
     width: 14%;
     position: absolute;
-    top: 65%;
+    top: 62%;
+    left: 1%;
     margin: 0 5px;
     padding-right: 5px;
   }
