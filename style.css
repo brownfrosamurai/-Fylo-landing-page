@@ -49,11 +49,12 @@ button {
   cursor: pointer;
   font-weight: 700;
   outline: none;
-  background-color: #339ecc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#339ecc), to(#65e2d9));
+  background-image: linear-gradient(#339ecc, #65e2d9);
 }
 
-button:focus {
-  background-color: #65e2d9;
+button:hover {
+  color: #000;
   opacity: 0.8;
 }
 
@@ -111,6 +112,7 @@ nav .nav a:hover {
   }
   nav #logo {
     width: 20%;
+    margin-left: 100px;
   }
   nav .nav {
     width: 50%;
@@ -266,8 +268,8 @@ nav .nav a:hover {
 .testimonials .testimonial-card img {
   width: 10%;
   position: absolute;
-  top: 70%;
-  left: 0;
+  top: 72%;
+  left: 5%;
   padding: 5px;
   border-radius: 50%;
 }
@@ -283,11 +285,11 @@ nav .nav a:hover {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .testimonials .testimonial-card span {
-  margin-left: 40px;
+  margin-left: 50px;
   color: #999;
   font-size: 12px;
 }
@@ -316,7 +318,7 @@ nav .nav a:hover {
   .testimonials .testimonial-card img {
     width: 14%;
     position: absolute;
-    top: 56%;
+    top: 65%;
     margin: 0 5px;
     padding-right: 5px;
   }

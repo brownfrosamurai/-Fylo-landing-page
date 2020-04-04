@@ -70,9 +70,9 @@ button {
   cursor: pointer;
   font-weight: 700;
   outline: none;
-  background-color: hsl(198, 60%, 50%);
-  &:focus {
-    background-color: hsl(176, 68%, 64%);
+  background-image: linear-gradient(hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+  &:hover {
+    color: #000;
     opacity: 0.8;
   }
 }
@@ -109,6 +109,7 @@ nav {
     height: 14vh;
     #logo {
       width: 20%;
+      margin-left: 100px;
     }
     .nav {
       width: 50%;
@@ -237,8 +238,8 @@ nav {
     img {
       width: 10%;
       position: absolute;
-      top: 70%;
-      left: 0;
+      top: 72%;
+      left: 5%;
       padding: 5px;
       border-radius: 50%;
     }
@@ -252,10 +253,10 @@ nav {
       margin: 0;
       font-family: "Open Sans", sans-serif;
       color: #fff;
-      margin-left: 40px;
+      margin-left: 50px;
     }
     span {
-      margin-left: 40px;
+      margin-left: 50px;
       color: #999;
       font-size: 12px;
     }
@@ -277,7 +278,7 @@ nav {
       img {
         width: 14%;
         position: absolute;
-        top: 56%;
+        top: 65%;
         margin: 0 5px;
         padding-right: 5px;
       }
