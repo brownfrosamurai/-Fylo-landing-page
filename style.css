@@ -109,6 +109,12 @@ nav .nav a:hover {
   nav {
     height: 14vh;
   }
+  nav #logo {
+    width: 20%;
+  }
+  nav .nav {
+    width: 50%;
+  }
 }
 
 .pry-banner {
@@ -151,7 +157,7 @@ nav .nav a:hover {
   }
   .pry-banner img {
     width: 80%;
-    height: 90vh;
+    height: auto;
     padding: 0rem;
   }
   .pry-banner .pry-banner-img {
@@ -268,7 +274,7 @@ nav .nav a:hover {
 
 .testimonials .testimonial-card #quote {
   position: abolute;
-  top: -10%;
+  top: -17%;
   left: -8%;
 }
 
@@ -305,13 +311,20 @@ nav .nav a:hover {
   .testimonials .testimonial-card {
     position: relative;
     width: 90%;
+    height: 150px;
   }
   .testimonials .testimonial-card img {
     width: 14%;
     position: absolute;
-    top: 72%;
+    top: 56%;
     margin: 0 5px;
     padding-right: 5px;
+  }
+  .testimonials .testimonial-card h6 {
+    margin: 20px 60px 0;
+  }
+  .testimonials .testimonial-card span {
+    margin: 20px 60px 0;
   }
 }
 
