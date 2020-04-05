@@ -72,7 +72,7 @@ button {
   outline: none;
   background-image: linear-gradient(hsl(198, 60%, 50%), hsl(176, 68%, 64%));
   &:hover {
-    color: #000;
+    background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     opacity: 0.8;
   }
 }
@@ -84,7 +84,7 @@ nav {
   @include grid2();
   width: 100%;
   grid-gap: 0.5rem;
-  height: 10vh;
+  height: 12vh;
   background-color: $intro-nav-bg;
   #logo {
     width: 37%;
@@ -95,9 +95,11 @@ nav {
   .nav {
     @include grid3();
     width: 80%;
+
     align-self: right;
     a {
       padding: 3px;
+      font-size: 11px;
       &:hover {
         border-bottom: 1px solid #999;
       }
