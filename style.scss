@@ -95,11 +95,10 @@ nav {
   .nav {
     @include grid3();
     width: 80%;
-
     align-self: right;
     a {
       padding: 3px;
-      font-size: 11px;
+      font-size: 10px;
       &:hover {
         border-bottom: 1px solid #999;
       }
@@ -115,6 +114,9 @@ nav {
     }
     .nav {
       width: 50%;
+      a {
+        font-size: 14px;
+      }
     }
   }
 }
